@@ -1,0 +1,27 @@
+{
+    "name": "binbinly/kong-admin-api",
+    "description": "php kong admin-api",
+    "version": "0.1",
+    "keywords": [
+        "kong",
+        "gateway",
+        "admin-api"
+    ],
+    "type": "library",
+    "authors": [
+        {
+            "name": "bin",
+            "email": "bin@test.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kong\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.0"
+    }
+}
